@@ -1,0 +1,85 @@
+body {
+	font-size: 600%;
+}
+
+hr {
+	border-width: 2px;
+	border-color: #D3D3D3;
+	border-style: solid;
+	margin: auto;
+}
+
+.destination-name > img{
+	width: 25%;
+}
+
+.overpass {
+	font-family: 'overpass';
+	font-weight: bold;
+}
+
+.marquee {
+	display: inline; /* TODO: determine actual sign width to set marquee sizes in terms of px*/
+	color: white;
+	background-color: black;
+	font-family: 'VT323', monospace;
+	padding: 0px 20px;
+}
+
+.marquee-border {
+	/*display: inline;
+	border: 2px solid #D3D3D3;
+	border-radius: 5px;
+	margin: 5px;*/
+}
+
+.sign {
+	margin: 20px 30px;
+}
+
+.sign-border {
+	border-radius: 15px;
+	border: 4px solid #D3D3D3;
+	margin: auto;
+	position: absolute;
+}
+
+.sign-header {
+	margin: 20px 30px 10px;
+}
+
+.header-title {
+	display: inline-block;
+}
+
+.header-image {
+	display: inline-block;
+	right: 0px;
+}
+
+.sign-body {
+	/*border-top: 2px solid #D3D3D3;
+	border-bottom: 2px solid #D3D3D3;*/
+}
+
+.destination {
+	position: relative;
+}
+
+.destination-name {
+	text-align: center;
+	display: inline-block;
+	left: 0px;
+	text-align: left;
+}
+
+.destination-price {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	text-align: right;
+}
+
+.sign-footer {
+	text-align: center;
+}
